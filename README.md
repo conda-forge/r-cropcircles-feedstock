@@ -3,7 +3,7 @@ About r-cropcircles
 
 Home: https://github.com/doehm/cropcircles
 
-Package license: CC0-1.0
+Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-cropcircles-feedstock/blob/main/LICENSE.txt)
 
