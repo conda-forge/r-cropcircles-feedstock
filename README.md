@@ -1,11 +1,11 @@
-About r-cropcircles
-===================
+About r-cropcircles-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-cropcircles-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/doehm/cropcircles
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-cropcircles-feedstock/blob/main/LICENSE.txt)
 
 Summary: Images are cropped to a circle with a transparent background. The function takes a vector of images, either local or from a link, and circle crops the image. Paths to the cropped image are returned for plotting with 'ggplot2'.
 
