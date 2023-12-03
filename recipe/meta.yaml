@@ -1,4 +1,4 @@
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/cropcircles_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/cropcircles/cropcircles_{{ version }}.tar.gz
-  sha256: 8b7fe6b21e6831903534e5a4cb9cc69802f909dfeee0089b19726cde31e0f1bd
+  sha256: e12803e20b8cfd9baa2237b91a064f34b20b2f74dd52cd3c166dbedff02b7e99
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
